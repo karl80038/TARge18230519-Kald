@@ -20,7 +20,7 @@ namespace Kangelased
 
         public override string ToString()
         {
-            return base.ToString() + " ta on selles " + _Osavus + "protsenti parem kui lihtsalt kangelased";
+            return base.ToString() + " ta on selles " + _Osavus + " protsenti parem kui lihtsalt kangelased";
         }
     }
 }
