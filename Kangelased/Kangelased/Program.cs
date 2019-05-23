@@ -9,6 +9,7 @@ namespace Kangelased
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
