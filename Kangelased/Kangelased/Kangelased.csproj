@@ -47,5 +47,10 @@
     <Compile Include="SingleRandom.cs" />
     <Compile Include="Superkangelane.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Kangelased.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
