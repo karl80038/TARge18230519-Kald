@@ -10,7 +10,7 @@ namespace Kangelased
         private double _Osavus;
         public Superkangelane(string Nimi, string Asukoht) : base(Nimi, Asukoht) 
         {
-            _Osavus = SingleRandom.Instance.Next(1, 60) / 10.0;
+            _Osavus = SingleRandom.Instance.Next(1, 51) / 10.0;
         }
 
         public override int Päästa(int Ohustatuid)
@@ -20,7 +20,7 @@ namespace Kangelased
 
         public override string ToString()
         {
-            return base.ToString() + " ta on selles " + _Osavus + "protsenti parem kui lihtsalt kangelased";
+            return base.ToString() + " ta on selles " + _Osavus + " protsenti parem kui lihtsalt kangelased";
         }
     }
 }
